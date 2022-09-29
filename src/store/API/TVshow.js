@@ -6,7 +6,7 @@ export const tvshow = movieDBApi.injectEndpoints({
     gettvshow: builder.query({
       query: () => {
         return {
-          url: "/3/trending/all/week?api_key=dd5685fc0c5640abc7ed586478a6ab70",
+          url: "/3/trending/tv/week?api_key=dd5685fc0c5640abc7ed586478a6ab70",
           method: "GET",
         };
       },
